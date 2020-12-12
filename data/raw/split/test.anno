@@ -1,0 +1,100 @@
+Search /some/directory for files that are owned by the user "joebob"
+Use "/var/log/wtmp" and print IPs and search for "^msw.*127.0.0.1"
+Save the md5 sum hash of "$my_iso_file" to variable "md5"
+Creates temporary file in a TMPDIR folder with name like tmp.XXXXXXXXXX.
+Make directory "testExpress"
+Exit the shell immediately if an error is encountered
+Delete all in the current directory tree
+Find all directories under current directory and set their permission to 775
+Find all the SUID files in the current directory tree
+Find all regular files in the current directory tree that are not readable by all
+Remove "\n" from "test1\ntest2\ntest3" and search for "test1.*test3"
+Make 3 directories named "~/Labs/lab4a/folder" followed by the number 1, 2, or 3
+display list of all the files in the current directory
+search all undo files(ending with .undo) in the current folder and calculate the total size of them
+Find all *.c files under and below the current directory that contain "wait_event_interruptible"
+Show the list of files modified less than a minute ago
+split file "${fspec} into pieces named as "xyzzyNNN" with numeric prefix from 1 to 6
+force remove all the text files that have not been modified in the last 89 days
+search for regular/normal file with the name "myfile" in the entire file system
+Finds pattern text ignoring letter case in all .js files, prints matched strings and name of file with that strings.
+Pushes current folder to the directory stack.
+Find all files/directoires that were modified more than 3 days ago under $dir directory tree
+Display only line numbers listed in 'file_of_line_numbers" from file 'source'.
+Look for any instance of "ds1337" in the modules.alias file matching current kernel release
+Prints all business days in a current month.
+Locate all passwd files on the system
+Read a line from standard input with prompt "Enter your choice: " and save response to variable "choice"
+Delete all files in the current directory.
+Find files with group write permission and remove the permission
+Count all the lines of all files with names ending with 'php' in current directory recursively
+find all the files in the filesystem which do not belong to any group
+find all the text files in  the current folder and do not search in somedir, bin directories
+Make directories "/tmp/A", "/tmp/B", "/tmp/C", and "/tmp/ dir with spaces"
+Find all empty folders in the current directory and below
+Calculate the total disk usage for each ".jpg" file on the system and prepend the system host name to the output
+display all the files in the current folder which are in the path "./sr*sc"
+Recursively set all permissions under "/folder" to 755
+Count all the lines of all '*.c' files in current directory recursively
+Read a line from standard input with prompt "Is this a good question (y/n)? " and save the response to variable "answer"
+List all regular files from the current directory tree that were modified less than 60 minutes ago
+Search for the extended grep regex 'expr' in all files with '.c' and '.h' extension under current directory tree
+display all the files in the file system which belong to no user
+find files which full path name like '*/*config' at current directory and print
+Forward all connections to client localhost 3309 via the SSH tunnel to "mysql_access_server" and then connect to host "sqlmaster.example.com" on port 3306
+Finds recursively all files not having extension .o in '/path/' that contain 'pattern', and prints matched strings with string number and file name.
+Finds all strings with parent folder of path '$path' in 'file', and saves result in 'x' variable.
+Find all files under /path/to/dir and change their permission to 644
+Open "charm" executable file in vim
+Search for 'foo' in all regular files under 'sources' directory tree and show the matched lines with filenames
+display all the directories in the folder /path/to/dest except tmp and cache directories
+display the help of find command
+find all the files that have been modified in the last 12 hours
+Find files changed in the last 1 day
+List the files from the current directory tree that contain lines matching regular expression  '^Subject:.*unique subject'
+Find all *.ogg files on the system ignoring the case
+Print a list of all the files in entire file system whose inode has been modified no later than one minute ago
+Find all files/directories under $something directory
+display the count of number of files in the current folder
+Search for files only that end with .php and look for the string $test inside those files
+find file named foo.txt under root / directory.
+Rename "original.filename" to "new.original.filename"
+Decompress 'file.gz'
+Find all C source code files from the current directory tree that contain "keyword" in their pathnames, ignoring the case
+Lists all files in a current folder, separating names with comma.
+Find all files/directories under current directory that match the case insensitive regex ./\(EA\|FS\)_.*
+change the permissions of all regular/normal files in the current directory
+Delete files in /var/tmp/stuff and below that have not been modified in over 90 days
+Set the bash prompt to "username@hostname"
+Finds IP addresses of all network interfaces.
+Display 12345 backwards
+Recursively copies all files in the current directory but ones that names match pattern "dirToExclude|targetDir" to the 'targetDir' directory, printing info message on each operation.
+Print the MD5 message digest of "/path/to/destination/file"
+search  in current directory downwards all files whose status has changed more then 7  days ago
+Ping the broadcast address "10.10.0.255"
+Prints long listing of content in a root folder, including hidden files, with human-readable sizes, and stores output to '/root/test.out' file.
+Remove all but 5 last comma-separated fields from each line in 'data.csv'
+Search the /path directory tree for regular files
+recursively change owner of the directory /usr/local to the current user
+Print mount point of the file system containing $path.
+Find all files in the current directory tree that are newer than some_file
+Find directories starting from /TBD that were modified more than 1 day ago
+Print the first 32 hexadecimal characters from "/dev/urandom", determining C locale for character handling functions
+Prints file descriptor of executed built-in 'true'.
+Archive all filepattern-*2009* files/directories under data/ into 2009.tar
+find all the files in the entire file system which have been modified in the last 120 hours
+change the extension of all the files in the current folder to html excluding those html files and those which are present in another disk partition
+display all the files having the word "searched phrasse" in their name in the current folder excluding those from the paths "/tmp/" and "./var/log"
+search for the folder .dummy and remove it from the folder "Test folder"
+Prints top-ten list of most used utilities from history.
+Archive all files specified on standard input under "/path/to/files" to "/path" on host "targethost" as user "user" with escalated privileges
+find all the directories in the current folder which have been modified in 24 hours and move them to the folder  /path/to/target-dir
+Find all files in /home/kos and below whose names end in ".tmp"
+List all entry names contained directly by directory in_save in the current directory, pausing for user input at each page.
+Calculate and show md5 sums for every files under current directory tree
+List the full path of each directory in the current working directory
+Lists the pids of all processes that have process '1782' as their parent.
+Recursively change the owner and group of all files in the current directory to "apache"
+Removes all files from current folder but 5 newest ones.
+Report file system mounted at $path_in_question disk usage if canonical path $path_in_question is a mount point.
+Make directories "project/{lib/ext,bin,src,doc/{html,info,pdf},demo/stat/a}" as needed and do not cause an error if it exists

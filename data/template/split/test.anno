@@ -1,0 +1,100 @@
+search for first match of case insensit regex _ REGEX in all _ FILE file under current directori
+search for file _ REGEX in current folder and display all error apart from permiss deni error
+print output of histori without line number
+count line in each _ FILE file
+find file in current directori that name are game
+locat _ REGEX execut file strip last _ NUMBER part of full path add _ FILE to end and save result in _ REGEX variabl
+find all file and directori under _ FILE directori tree which been modifi within _ TIMESPAN
+print ping time of a singl request to _ FILE
+find _ REGEX substitut onli _ REGEX occurr of a word use sed _ FILE in all _ FILE file
+remov first and last part of path _ REGEX and save result in _ REGEX variabl
+print standard input to standard output line by line discard ani adjac duplic line
+search for all file in _ FILE directori tree that same inod number
+find all file larger than _ SIZE
+search all _ FILE file in _ FILE folder and follow symbol link to origin file
+display a long list of all empti file in entir file system which are empti
+read a line from standard input into variabl _ REGEX with prompt _ REGEX
+display all file in file system which are smaller than _ SIZE
+find regular file in current directori that are writabl by owner
+find file in _ REGEX directori tree whose name are _ NUMBER charact in length
+search for a word in all file in current directori
+send ping request to _ FILE
+find file and directori with exact read write and execut permiss for all under _ FILE
+print onli common string in content of file _ FILE and _ FILE
+display all text file in current folder except readm file
+sort line of file _ FILE and chang it in - plac
+identifi cms _ FILE accross all wordpress websit
+find all file which were access _ TIMESPAN ago
+split _ REGEX into _ NUMBER file of about equal size without split line
+print folder path where _ REGEX file is locat
+find all directori under _ FILE and chang permiss to _ NUMBER
+find all _ FILE file and directori under current directori and enter into parent directori of first one found
+print a list of regular file from directori tree _ DIRECTORY sort with _ REGEX
+search _ FILE for file larger than _ SIZE modifi _ TIMESPAN ago
+search current directori recurs for regular file modifi _ TIMESPAN ago
+display all file in current folder which not been modifi in _ TIMESPAN and which are not in list _ FILE
+search for file _ REGEX in current folder exclud those in sub directori _ FILE
+archiv _ REGEX preserv hard link from host _ REGEX to current local directori and keep partial file handl spars file effici and item chang made
+renam _ FILE file to _ FILE in all level _ NUMBER subdirectori of current directori
+count number of file name _ FILE under _ FILE directori tree that match _ REGEX in content
+find all file and directori under current directori tree that start with _ REGEX in name without descend into directori with same name pattern
+find all file and directori ignor _ REGEX file and directori without descend into _ FILE directori with null charact as delimit
+search for a shell script in current folder and display current folder path
+find all _ FILE file under _ FILE directori
+ssh with paramet specifi in _ REGEX use key file _ FILE
+creat a symbol link name _ REGEX to file _ FILE
+find all file that been modifi in _ TIMESPAN
+print number from _ NUMBER to _ NUMBER
+filter out string use extend regexp pattern _ REGEX from _ REGEX
+recurs remov all file like _ REGEX in a current folder
+run a shell with all environ variabl specifi in file _ REGEX in user ' s home directori
+chang owner and group of all directori in current folder and _ DIRECTORY to admin _ REGEX admin
+find file and directori name _ FILE under current directori tree
+find all file under _ FILE directori without descend into _ FILE directori that were modifi in _ TIMESPAN with null charact as delimit
+save list of a current folder in _ REGEX variabl
+find all file and directori under _ FILE directori non - recurs that match pattern _ FILE in name
+print host name without a newlin
+read raw input of _ FILE as hexadecim byte with _ SIZE per line
+remov _ NUMBER add a _ REGEX line number and rearrang date for each line in _ REGEX on osx
+return file that are newer than file _ REGEX
+display a long list of all _ FILE file in current folder which are bigger than _ SIZE
+find all file and directori name _ FILE under current directori tree
+recurs remov all file with name like _ FILE in _ FILE folder
+insert _ REGEX everi _ NUMBER charact in file _ REGEX
+find all directori under current directori and chang permiss to _ NUMBER
+print all file in file system exclud those end with _ FILE
+find user daniel ' s file of type _ FILE
+find file _ REGEX
+find all directori in current folder which been modifi in _ TIMESPAN and move them to folder _ FILE
+find all directori name sybas under _ FILE
+find all file and directori with _ NUMBER permiss under current directori tree
+search current directori and all of it sub - directori for ani _ FILE file
+write _ REGEX to standard output and to _ FILE
+find _ REGEX of _ NUMBER
+find all _ REGEX directori in current directori tree and remov them
+find regular file in current directori tree that are call _ FILE and remov them
+output _ REGEX remov _ DIRECTORY from specifi path
+variabl pid contain a process id check if process exist result exit status from command will be _ NUMBER if it and current user permiss to send it signal
+find all _ REGEX file and directori exclud _ REGEX file and directori under home directori
+identifi cms _ FILE accross all wordpress websit
+find all file and directori name _ REGEX under current directori
+execut _ FILE everi _ TIMESPAN
+delet all file and directori under current directori
+display count of regular file in current folder not search in sub directori
+find all directori in current folder which begin with word _ REGEX and end with a digit
+remov onli lowest level subfold from current directori tree
+recurs chang owner of directori testproject and all file into it to user ftpuser
+creat a symbol link in directori _ FILE for each file and directori under current directori start with _ REGEX
+print each _ FILE in user ' s full name
+find all file and directori name _ REGEX in entir filesystem
+find all _ REGEX file and directori under current directori
+find all file name _ REGEX under current directori tree and display content
+get number of _ REGEX statement in all _ FILE file order
+count all busi day in a current month
+print common file of directori _ NUMBER and _ NUMBER
+display all header file and _ FILE file in current folder
+find all file under _ REGEX
+recurs find all _ FILE file and print string with _ REGEX ignor text distinct
+get number of regular file in directori given as bash script argument _ REGEX
+find file and directori under current directori and forc xarg to print them one by one
+find all file have text _ REGEX recurs in a current folder and print onli file name with match string

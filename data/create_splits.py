@@ -6,11 +6,11 @@ def create_split(file_path,output_path,split_size_test=100,template=True):
     with open(file_path) as json_file:
         data = load(json_file)
     list_of_stat = []
-    to_append = {}
     if template:
-        for i in range(len(data)):
-            to_append["invocation"] = " ".join(data[i]["NL"])
-            to_append["cmd"] = " ".join(data[i]["Cmd"])
+        for i in data:
+            to_append = {}
+            to_append["invocation"] = " ".join(i["NL"])
+            to_append["cmd"] = " ".join(i["Cmd"])
             list_of_stat.append(to_append)
     else:
         for i in range(1,len(data)+1):
@@ -26,6 +26,17 @@ def write_file_json(Filepath,Object):
     with open(Filepath, 'w') as outfile:
         dump(Object, outfile)
     return "Data Written"
+
+def write_test_data(test_path,output_path):
+    with open(test_path) as json_file:
+        data = load(json_file)
+    annotation = []
+    for i in data:
+        annotation.append(i["invocation"])
+    with open(output_path+"/test.anno", 'w') as f:
+        for item in annotation:
+            f.write("%s\n" % item)
+    return None
 if __name__ == "__main__":
     create_split(r"/home/reshinth-adith/reshinth/clai/data/template/Template.json",
                 r"/home/reshinth-adith/reshinth/clai/data/template/split//",
@@ -33,3 +44,7 @@ if __name__ == "__main__":
     create_split(r"/home/reshinth-adith/reshinth/clai/data/raw/raw.json",
                 r"/home/reshinth-adith/reshinth/clai/data/raw/split//",
                 template=False)
+    write_test_data(r"/home/reshinth-adith/reshinth/clai/data/raw/split/test.json",
+                     r"/home/reshinth-adith/reshinth/clai/data/raw/split/")
+    write_test_data(r"/home/reshinth-adith/reshinth/clai/data/template/split/test.json",
+                     r"/home/reshinth-adith/reshinth/clai/data/template/split/")

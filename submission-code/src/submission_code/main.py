@@ -1,3 +1,6 @@
+from transformers import (pipeline)
+model_path = r""
+Text2Text = pipeline('question-answering', model=model_path, tokenizer=model_path)
 def predict(invocations, result_cnt=5):
     """ 
     Function called by the evaluation script to interface the participants model

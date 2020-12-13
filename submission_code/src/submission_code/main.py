@@ -1,6 +1,41 @@
-from transformers import (pipeline)
-model_path = r""
-Text2Text = pipeline('question-answering', model=model_path, tokenizer=model_path)
+from transformers import pipeline
+
+def load_transformers(model_path):
+    Model = pipeline("text2text-generation", model=model_path, tokenizer=model_path)
+    return Model
+
+
+model_path = r"//home/reshinth-adith/reshinth/clai-helper/t5_temp/bart/best_tfmr"
+Model = load_transformers(model_path)
+TYPE = "TEMPLATE"
+
+if TYPE =="TEMPLATE":
+    from data_utils import nl_to_partial_tokens,cm_to_partial_tokens
+    from nlp_tools import tokenizer
+    from bashlint import data_tools
+
+    def Cust_NL_Tokenizer(String,parse="Template"):
+        """Custom NL Tokenizer"""
+        Tokens_List = nl_to_partial_tokens(String,tokenizer=tokenizer.ner_tokenizer)
+        return " ".join(Tokens_List)
+
+
+
+
+
+
+def predict_transformers(invocations):
+    commands = []
+    for invocation in invocations:
+        if not TYPE == "TEMPLATE":
+            input_text = invocation
+        else:
+            input_text = Cust_NL_Tokenizer(invocation)
+        predicted = Model(input_text)[0]["generated_text"]
+        predicted_list = [predicted]#*5
+        commands.append(predicted_list)
+    return commands
+
 def predict(invocations, result_cnt=5):
     """ 
     Function called by the evaluation script to interface the participants model
@@ -22,10 +57,7 @@ def predict(invocations, result_cnt=5):
     n_batch = len(invocations)
     
     # `commands` and `confidences` have shape (n_batch, result_cnt)
-    commands = [ 
-        [''] * result_cnt
-        for _ in range(n_batch)
-    ]
+    commands = [] #[ [''] * result_cnt for _ in range(n_batch)]
     confidences = [ 
         [1.0] * result_cnt
         for _ in range(n_batch)
@@ -34,9 +66,7 @@ def predict(invocations, result_cnt=5):
     ################################################################################################
     #     Participants should add their codes to fill predict `commands` and `confidences` here    #
     ################################################################################################
-
-
-
+    commands = predict_transformers(invocations)
     ################################################################################################
     #                               Participant code block ends                                    #
     ################################################################################################

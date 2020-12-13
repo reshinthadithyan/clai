@@ -19,7 +19,7 @@ from utils.dataloaders import Nlc2CmdDL
 def get_parser():
     parser = argparse.ArgumentParser()
     
-    parser.add_argument('--annotation_filepath', type=str, required=True)
+    parser.add_argument('--annotation_filepath' ,type=str, required=True)
     parser.add_argument('--params_filepath', type=str, required=True)
     parser.add_argument('--output_folderpath', type=str, required=True)
     parser.add_argument('--mode', type=str, required=False, default='eval')
